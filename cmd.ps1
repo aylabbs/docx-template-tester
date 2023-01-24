@@ -1,0 +1,1 @@
+node . && & "C:\Program Files\LibreOffice\program\soffice.exe"   .\out.docx

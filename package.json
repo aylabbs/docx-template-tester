@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "easy-template-x": "^3.0.2",
+    "angular-expressions": "^1.1.8",
+    "easy-template-x-angular-expressions": "0.1.0"
+  },
+  "nodemonConfig": {
+    "watch": ["template/Template.docx", "data.json"],
+    "exec": "pwsh cmd.ps1"
+  },
+  "scripts": {
+    "start": "nodemon"
+  }
+}
